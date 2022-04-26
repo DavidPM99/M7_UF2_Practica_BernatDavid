@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         bt_recursos.setOnClickListener {
-            startActivity(Intent(this, AvaluacioActivity::class.java))
+            startActivity(Intent(this, RecursosActivity::class.java))
         }
 
         tv_sobre.setOnClickListener {

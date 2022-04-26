@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RecursosActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_info_sanitaria"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:textAlignment="center">
+    </TextView>
+
+    <Button
+        android:id="@+id/bt_061"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_061"
+        android:textColor="@color/colorText"
+        android:background="@drawable/btn_rounded_blue"
+        android:textSize="24sp">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_emergències"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:paddingTop="16dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/bt_112"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_112"
+        android:background="@drawable/btn_rounded_blue"
+        android:textColor="@color/colorText"
+        android:textSize="24sp">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_info_gencat"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:paddingTop="16dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/bt_012"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_012"
+        android:background="@drawable/btn_rounded_blue"
+        android:textColor="@color/colorText"
+        android:textSize="24sp">
+    </Button>
+
+</LinearLayout>

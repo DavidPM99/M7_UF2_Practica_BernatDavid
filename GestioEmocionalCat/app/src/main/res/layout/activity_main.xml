@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:nestedScrollingEnabled="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/im_salut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/salut"
+            android:layout_weight="1">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/im_gencat"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:src="@drawable/gencat"
+            android:layout_weight="1">
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_avalua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rounded_blue"
+            android:text="@string/bt_avalua"
+            android:textColor="@color/colorText"
+            android:drawableLeft="@drawable/avalua"
+            android:textSize="16sp"
+            android:padding="8dp">
+        </Button>
+
+        <Button
+            android:id="@+id/bt_recursos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rounded_blue"
+            android:text="@string/bt_recursos"
+            android:textColor="@color/colorText"
+            android:drawableLeft="@drawable/recursos"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:padding="8dp">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_sobre"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tv_sobre">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

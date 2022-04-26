@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GestioEmocional.cat</string>
+    <string name="app_avaluació">GestioEmocional.cat > Avaluació</string>
+    <string name="app_recursos">GestioEmocional.cat > Recursos</string>
+    <string name="tv_sobre"><u>SOBRE GESTIOEMOCIONAL.CAT</u></string>
+    <string name="bt_avalua">AVALUA EL TEU ESTAT</string>
+    <string name="bt_recursos">RESURSOS PROFESSIONALS</string>
+    <string name="dialog_avís">Avís</string>
+    <string name="dialog_text">En les següents pantalles trobaràs una sèrie de preguntes sobre estats emocionals que hagis pogut sentir en les 2 últimes setmanes.\n\nAquesta avaluació està pensada per a adults majors de 18 anys.\n\nSi us plau, llegeix cada enunciat curosament, després selecciona l\'opció que millor descrigui quant t\'ha afectat cada estat, en les 2 últimes setmanes.\n\nSelecciona només una resposta per a cada pregunta.</string>
+    <string name="dialog_dacord">D\'acord</string>
+    <string name="tv_info_sanitaria">Informació sanitària</string>
+    <string name="tv_emergències">Emergències mèdiques</string>
+    <string name="bt_061">061</string>
+    <string name="bt_112">112</string>
+    <string name="bt_012">012</string>
+    <string name="tv_info_gencat">Informació Gencat</string>
+    <string name="bt_resposta1">Cap dia</string>
+    <string name="bt_resposta2">Menys de 7 dies</string>
+    <string name="bt_resposta3">Més de 7 dies</string>
+    <string name="bt_resposta4">Gairebé cada dia</string>
+    <string name="tv_pregunta1">Pregunta 1 (de 3):\n\nDurant les darreres 2 setmanes, <b>amb quina freqüència has tingut poc interès o plaer per fer coses?</b></string>
+    <string name="tv_pregunta2">Pregunta 2 (de 3):\n\nDurant les darreres 2 setmanes, <b>amb quina freqüència t\'has sentit decaigut/decaiguda, deprimit/deprimida o sense esperança?</b></string>
+    <string name="tv_pregunta3">Pregunta 3 (de 3):\n\nDurant les darreres 2 setmanes, <b>amb quina freqüència t\'has sentit nerviós/nerviosa, ansiós/ansiosa o molt alterat/alterada?</b></string>
+    <string name="tv_resultat_be">La teva salut emocional és bona.</string>
+    <string name="tv_resultat_regular">La teva salut emocional és bona, <b>però et suggerim repetir el test la setmana vinent.</b></string>
+    <string name="tv_resultat_malament">Sembla que no estàs bé psicològicament, <b>et recomanem rebre ajuda professional.</b></string>
+    <string name="menu_fet">FET</string>
+</resources>

@@ -13,7 +13,7 @@ class AvaluacioActivity3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_avaluacio3)
 
-        respostes = intent.getIntArrayExtra(Constants.EXTRA_RESPOSTES)
+        respostes = intent.getIntArrayExtra(Constants.EXTRA_RESPOSTES)!!
 
         configView()
     }

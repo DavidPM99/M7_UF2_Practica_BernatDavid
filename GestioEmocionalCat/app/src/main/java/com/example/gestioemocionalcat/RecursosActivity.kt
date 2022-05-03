@@ -21,11 +21,11 @@ class RecursosActivity : AppCompatActivity() {
         }
 
         bt_112.setOnClickListener {
-
+            dialNumber("112")
         }
 
         bt_012.setOnClickListener {
-
+            dialNumber("012")
         }
     }
 

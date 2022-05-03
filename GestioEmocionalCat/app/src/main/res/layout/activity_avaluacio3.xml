@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/aval3"
     tools:context=".AvaluacioActivity"
     android:padding="16dp"
-    android:weightSum="2">
+    android:weightSum="2"
+    android:id="@+id/aval3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,20 +42,20 @@
         </Button>
 
         <Button
-            android:id="@+id/bt_resposta3"
+            android:id="@+id/bt_resposta2"
             android:layout_marginTop="8dp"
             android:background="@drawable/btn_rounded_grey"
-            android:text="@string/bt_resposta3"
+            android:text="@string/bt_resposta2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp">
         </Button>
 
         <Button
-            android:id="@+id/bt_resposta2"
+            android:id="@+id/bt_resposta3"
             android:layout_marginTop="8dp"
             android:background="@drawable/btn_rounded_grey"
-            android:text="@string/bt_resposta2"
+            android:text="@string/bt_resposta3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp">

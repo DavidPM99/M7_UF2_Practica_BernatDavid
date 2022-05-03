@@ -23,12 +23,13 @@ class BasicTest {
     @Test
     fun checkRecursos(){
         onView(withId(R.id.bt_recursos)).perform(click())
-        onView(withId(R.id.aval)).check(matches(isDisplayed()))
+        onView(withId(R.id.recurso)).check(matches(isDisplayed()))
     }
+
 
     @Test
     fun checkAval(){
         onView(withId(R.id.bt_avalua)).perform(click())
-        onView(withId(R.id.recurso)).check(matches(isDisplayed()))
+        onView(withText(R.string.dialog_dacord)).check(matches(isDisplayed()))
     }
 }

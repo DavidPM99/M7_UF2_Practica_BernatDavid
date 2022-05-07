@@ -23,7 +23,7 @@ class BasicTest {
     @Test
     fun checkRecursos(){
         onView(withId(R.id.bt_recursos)).perform(click())
-        onView(withId(R.id.aval)).check(matches(isDisplayed()))
+        onView(withId(R.id.recurso)).check(matches(isDisplayed()))
     }
 
     @Test

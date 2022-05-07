@@ -14,7 +14,7 @@ class AvaluacioActivityFinal : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_avaluacio_final)
 
-        configView(intent.getIntArrayExtra(Constants.EXTRA_RESPOSTES).sum())
+        configView(intent.getIntArrayExtra(Constants.EXTRA_RESPOSTES)!!.sum())
     }
 
     private fun configView(resultat: Int) {

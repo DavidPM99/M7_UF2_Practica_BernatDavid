@@ -77,13 +77,13 @@ class AvaluacioTest4 {
 
         val appCompatButton4 = onView(
             allOf(
-                withId(R.id.bt_resposta1), withText("Menys de 7 dies"),
+                withId(R.id.bt_resposta2), withText("Menys de 7 dies"),
                 childAtPosition(
                     childAtPosition(
                         withId(R.id.aval2),
                         1
                     ),
-                    0
+                    1
                 ),
                 isDisplayed()
             )
@@ -92,13 +92,13 @@ class AvaluacioTest4 {
 
         val appCompatButton5 = onView(
             allOf(
-                withId(R.id.bt_resposta1), withText("Menys de 7 dies"),
+                withId(R.id.bt_resposta2), withText("Menys de 7 dies"),
                 childAtPosition(
                     childAtPosition(
                         withId(R.id.aval3),
                         1
                     ),
-                    0
+                    1
                 ),
                 isDisplayed()
             )

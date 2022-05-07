@@ -13,10 +13,8 @@ import androidx.test.rule.ActivityTestRule
 import androidx.test.runner.AndroidJUnit4
 import org.hamcrest.Description
 import org.hamcrest.Matcher
-import org.hamcrest.Matchers.`is`
 import org.hamcrest.Matchers.allOf
 import org.hamcrest.TypeSafeMatcher
-import org.hamcrest.core.IsInstanceOf
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -36,7 +34,7 @@ class AvaluacioTest4 {
                 withId(R.id.bt_avalua), withText("AVALUA EL TEU ESTAT"),
                 childAtPosition(
                     childAtPosition(
-                        withClassName(`is`("android.widget.LinearLayout")),
+                        withId(R.id.main_act),
                         1
                     ),
                     0
@@ -77,13 +75,13 @@ class AvaluacioTest4 {
 
         val appCompatButton4 = onView(
             allOf(
-                withId(R.id.bt_resposta1), withText("Menys de 7 dies"),
+                withId(R.id.bt_resposta2), withText("Menys de 7 dies"),
                 childAtPosition(
                     childAtPosition(
                         withId(R.id.aval2),
                         1
                     ),
-                    0
+                    1
                 ),
                 isDisplayed()
             )
@@ -92,13 +90,13 @@ class AvaluacioTest4 {
 
         val appCompatButton5 = onView(
             allOf(
-                withId(R.id.bt_resposta1), withText("Menys de 7 dies"),
+                withId(R.id.bt_resposta2), withText("Menys de 7 dies"),
                 childAtPosition(
                     childAtPosition(
                         withId(R.id.aval3),
                         1
                     ),
-                    0
+                    1
                 ),
                 isDisplayed()
             )
@@ -123,7 +121,7 @@ class AvaluacioTest4 {
         val imageView = onView(
             allOf(
                 withId(R.id.im_salut),
-                withParent(withParent(IsInstanceOf.instanceOf(android.widget.LinearLayout::class.java))),
+                withParent(withParent(withId(R.id.main_act))),
                 isDisplayed()
             )
         )
@@ -132,7 +130,7 @@ class AvaluacioTest4 {
         val imageView2 = onView(
             allOf(
                 withId(R.id.im_gencat),
-                withParent(withParent(IsInstanceOf.instanceOf(android.widget.LinearLayout::class.java))),
+                withParent(withParent(withId(R.id.main_act))),
                 isDisplayed()
             )
         )
